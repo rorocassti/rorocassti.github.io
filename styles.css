@@ -1,0 +1,127 @@
+#navbar {
+    background-color: pink;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    color: black;
+    position: fixed;  /* Esto hace que la barra quede fija */
+    top: 0;  /* La fija en la parte superior */
+    width: 100%;  /* Hace que ocupe todo el ancho de la pantalla */
+    z-index: 1000;  /* Se asegura de que esté por encima de otros elementos */
+    box-shadow: 0 4px 2px -2px gray; /* Agrega una sombra sutil para mayor visibilidad */
+}
+
+.secciones{
+    padding-top: 80px;
+}
+
+.nav-link:hover {
+    color: #ff3366;
+}
+
+a {
+    color: black;
+}
+
+body {
+    background-color: black;
+    color: white;
+    padding-top: 60px;  /* Da espacio para la barra fija */
+}
+
+a:hover {
+    color: rgb(245, 93, 118);
+}
+
+body, nav, ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    font-size: 25px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 400px;
+    margin: auto;
+    border-radius: 5%;
+    display: block;
+}
+
+figcaption {
+    text-align: center;
+}
+
+li {
+    padding: 10px;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    color: pink;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin: auto 20px;
+    font-size: 25px;
+}
+
+article ul, article code {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    color: pink;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#album {
+    color: pink;
+}
+
+#colabs ul {
+    padding-right: 25px;
+    margin-left: 35px;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+}
+
+footer {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    img {
+        width: 250px;
+    }
+
+    nav ul {
+        margin: 0 10px;
+        padding: 0 15px;
+    }
+}
